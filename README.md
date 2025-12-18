@@ -4,7 +4,7 @@
 Welcome to the Data Warehouse and Analytics Project repository 🚀
 This project demonstrates an end-to-end data warehousing and analytics solution, from building a structured data warehouse to generating actionable business insights.
 
-It is designed as a portfolio-ready project, showcasing industry best practices in data engineering, BI, and analytics.
+Designed as a portfolio-ready project, it showcases industry best practices in data engineering, BI, and analytics.
 
 🎯 Project Objectives
 1️⃣ Data Engineering (Data Warehouse)
@@ -27,7 +27,7 @@ These insights empower stakeholders with key business metrics to support strateg
 🔧 Building the Data Warehouse (Data Engineering)
 Objective
 
-Create a centralized and analytics-ready data warehouse by integrating and cleansing data from multiple source systems.
+Create a centralized, analytics-ready data warehouse by integrating and cleansing data from multiple source systems.
 
 Specifications
 
@@ -86,7 +86,7 @@ Business-ready reports
 
 Actionable insights for decision-makers
 
-📜 License
+🛡️ License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and share this project with proper attribution.
