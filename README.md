@@ -6,7 +6,8 @@ This project demonstrates an end-to-end data warehousing and analytics solution,
 
 Designed as a portfolio-ready project, it showcases industry best practices in data engineering, BI, and analytics.
 
-🎯 Project Objectives
+### 🎯 Project Objectives
+
 ## 1️⃣ Data Engineering (Data Warehouse)
 
 Develop a modern SQL Server–based data warehouse to consolidate sales data from multiple systems, enabling analytical reporting and informed decision-making.
@@ -23,15 +24,17 @@ Sales Trends
 
 These insights empower stakeholders with key business metrics to support strategic decision-making.
 
-🏗️ Project Requirements
-🔧 Building the Data Warehouse (Data Engineering)
-Objective
+## 🏗️ Project Requirements
+
+### 🔧 Building the Data Warehouse (Data Engineering)
+
+### Objective
 
 Create a centralized, analytics-ready data warehouse by integrating and cleansing data from multiple source systems.
 
-Specifications
+### Specifications
 
-Data Sources
+- **Data Sources**
 
 Import data from two source systems:
 
@@ -39,25 +42,25 @@ ERP system (CSV files)
 
 CRM system (CSV files)
 
-Data Quality
+- **Data Quality**
 
 Cleanse data
 
 Resolve inconsistencies and data quality issues before analysis
 
-Data Integration
+- **Data Integration**
 
 Combine ERP and CRM data into a single, user-friendly analytical data model
 
 Optimized for reporting and analytical queries
 
-Scope
+- **Scope**
 
 Focus on the latest dataset only
 
 No historization or slowly changing dimensions required
 
-Documentation
+- **Documentation**
 
 Provide clear and structured documentation of:
 
@@ -67,18 +70,19 @@ Tables and relationships
 
 Designed for both business stakeholders and analytics teams
 
-📈 BI: Analytics & Reporting (Data Analytics)
-Objective
+### 📈 BI: Analytics & Reporting (Data Analytics)
+
+### Objective
 
 Use SQL to generate analytical insights that answer key business questions related to:
 
-How customers behave
+- **How customers behave**
 
-Which products perform best
+- **Which products perform best**
 
-How sales trends evolve over time
+- **How sales trends evolve over time**
 
-Outcome
+## Outcome
 
 Clear KPIs and metrics
 
@@ -86,12 +90,12 @@ Business-ready reports
 
 Actionable insights for decision-makers
 
-🛡️ License
+## 🛡️ License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and share this project with proper attribution.
 
-👤 About Me
+## 👤 About Me
 
 Hi! I’m Yash Swami, a Data Analytics and Data Engineering enthusiast.
 I’m an Electrical Engineering graduate passionate about working with data and focused on:
