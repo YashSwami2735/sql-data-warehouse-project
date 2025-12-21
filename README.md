@@ -1,4 +1,4 @@
-###📊 Data Warehouse and Analytics Project
+### 📊 Data Warehouse and Analytics Project
 📌 Overview
 
 Welcome to the Data Warehouse and Analytics Project repository 🚀
@@ -7,11 +7,11 @@ This project demonstrates an end-to-end data warehousing and analytics solution,
 Designed as a portfolio-ready project, it showcases industry best practices in data engineering, BI, and analytics.
 
 🎯 Project Objectives
-1️⃣ Data Engineering (Data Warehouse)
+## 1️⃣ Data Engineering (Data Warehouse)
 
 Develop a modern SQL Server–based data warehouse to consolidate sales data from multiple systems, enabling analytical reporting and informed decision-making.
 
-2️⃣ Business Intelligence & Analytics
+## 2️⃣ Business Intelligence & Analytics
 
 Develop SQL-based analytics to deliver detailed insights into:
 
