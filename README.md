@@ -1,105 +1,155 @@
-### 📊 Data Warehouse and Analytics Project
-📌 Overview
+# 📊 Data Warehouse and Analytics Project
 
-Welcome to the Data Warehouse and Analytics Project repository 🚀
-This project demonstrates an end-to-end data warehousing and analytics solution, from building a structured data warehouse to generating actionable business insights.
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
-Designed as a portfolio-ready project, it showcases industry best practices in data engineering, BI, and analytics.
+---
 
-### 🎯 Project Objectives
+## 📘 Project Overview
 
-## 1️⃣ Data Engineering (Data Warehouse)
+This project involves:
 
-Develop a modern SQL Server–based data warehouse to consolidate sales data from multiple systems, enabling analytical reporting and informed decision-making.
+1. **Data Architecture**: Designing a Modern Data Warehouse using **Medallion Architecture** — Bronze, Silver, and Gold layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
-## 2️⃣ Business Intelligence & Analytics
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
 
-Develop SQL-based analytics to deliver detailed insights into:
+- SQL Development  
+- Data Architect  
+- Data Engineering  
+- ETL Pipeline Developer  
+- Data Modeling  
+- Data Analytics  
 
-Customer Behavior
+---
 
-Product Performance
+## 🛠️ Important Links & Tools
 
-Sales Trends
+Everything is for **Free!**
 
-These insights empower stakeholders with key business metrics to support strategic decision-making.
+- **Datasets**: Access to the project dataset (CSV files)
+- **SQL Server Express**: Lightweight server for hosting your SQL database
+- **SQL Server Management Studio (SSMS)**: GUI for managing and interacting with databases
+- **Git Repository**: Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently
+- **DrawIO**: Design data architecture, models, flows, and diagrams
+- **Notion**: All-in-one tool for project management and organization
+- **Notion Project Steps**: Access to all project phases and tasks
 
-## 🏗️ Project Requirements
+---
 
-### 🔧 Building the Data Warehouse (Data Engineering)
+## 🚀 Project Requirements
 
-### Objective
+### 🏗️ Building the Data Warehouse (Data Engineering)
 
-Create a centralized, analytics-ready data warehouse by integrating and cleansing data from multiple source systems.
+#### 🎯 Objective
 
-### Specifications
+Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 
-- **Data Sources**
+#### 📋 Specifications
 
-Import data from two source systems:
+- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files
+- **Data Quality**: Cleanse and resolve data quality issues prior to analysis
+- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries
+- **Scope**: Focus on the latest dataset only; historization of data is not required
+- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams
 
-ERP system (CSV files)
-
-CRM system (CSV files)
-
-- **Data Quality**
-
-Cleanse data
-
-Resolve inconsistencies and data quality issues before analysis
-
-- **Data Integration**
-
-Combine ERP and CRM data into a single, user-friendly analytical data model
-
-Optimized for reporting and analytical queries
-
-- **Scope**
-
-Focus on the latest dataset only
-
-No historization or slowly changing dimensions required
-
-- **Documentation**
-
-Provide clear and structured documentation of:
-
-Data model
-
-Tables and relationships
-
-Designed for both business stakeholders and analytics teams
+---
 
 ### 📈 BI: Analytics & Reporting (Data Analytics)
 
-### Objective
+#### 🎯 Objective
 
-Use SQL to generate analytical insights that answer key business questions related to:
+Develop SQL-based analytics to deliver detailed insights into:
 
-- **How customers behave**
+- **Customer Behavior**
+- **Product Performance**
+- **Sales Trends**
 
-- **Which products perform best**
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
-- **How sales trends evolve over time**
+For more details, refer to **docs/requirements.md**.
 
-## Outcome
+---
 
-Clear KPIs and metrics
+## 🏛️ Data Architecture
 
-Business-ready reports
+The data architecture for this project follows **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers:
 
-Actionable insights for decision-makers
+### 🔹 Sources
+- CRM  
+- ERP  
+- **Object Type**: CSV Files  
+- **Interface**: Files in Folders  
 
-## 🛡️ License
+---
 
-This project is licensed under the MIT License.
-You are free to use, modify, and share this project with proper attribution.
+### 🥉 Bronze Layer
+- Stores raw data as-is from the source systems  
+- **Object Type**: Tables  
+- **Load**:
+  - Batch Processing
+  - Full Load
+  - Truncate & Insert  
+- **Transformations**: None  
+- **Data Model**: None (as-is)
 
-## 👤 About Me
+---
 
-Hi! I’m Yash Swami, a Data Analytics and Data Engineering enthusiast.
-I’m an Electrical Engineering graduate passionate about working with data and focused on:
+### 🥈 Silver Layer
+- Cleaned and standardized data  
+- **Object Type**: Tables  
+- **Load**:
+  - Batch Processing
+  - Full Load
+  - Truncate & Insert  
+- **Transformations**:
+  - Data Cleansing
+  - Data Standardization
+  - Data Normalization
+  - Derived Columns
+  - Data Enrichment  
+- **Data Model**: None (as-is)
 
-Building practical, real-world data solutions
+---
 
-Turning raw data into clear, actionable insights
+### 🥇 Gold Layer
+- Business-ready data  
+- **Object Type**: Views  
+- **Load**: No Load  
+- **Transformations**:
+  - Data Integrations
+  - Aggregations
+  - Business Logic  
+- **Data Model**:
+  - Star Schema
+  - Flat Table
+  - Aggregated Table  
+
+---
+
+### 📊 Consume
+- BI & Reporting  
+- Ad-hoc SQL Queries  
+- Machine Learning  
+
+---
+
+## 📁 Repository Structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
