@@ -138,6 +138,47 @@ The data architecture for this project follows **Medallion Architecture** with *
 
 ## 📁 Repository Structure
 
+data-warehouse-project/
+│
+├── datasets/ # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/ # Project documentation and architecture details
+│ ├── etl.drawio # ETL techniques and methods
+│ ├── data_architecture.drawio# Project architecture diagram
+│ ├── data_catalog.md # Dataset catalog with metadata
+│ ├── data_flow.drawio # Data flow diagram
+│ ├── data_models.drawio # Data models (star schema)
+│ └── naming-conventions.md # Naming guidelines for tables, columns, files
+│
+├── scripts/
+│ ├── bronze/ # Scripts for extracting and loading raw data
+│ ├── silver/ # Scripts for cleaning and transforming data
+│ └── gold/ # Scripts for creating analytical models
+│
+├── tests/ # Test scripts and data quality checks
+│
+├── README.md # Project overview and instructions
+├── LICENSE # License information
+├── .gitignore # Files and directories ignored by Git
+└── requirements.txt # Project dependencies
+
+---
+
+## 🌟 About Me
+
+Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**.  
+I'm an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
+
+Let’s stay in touch! Feel free to connect with me on the following platforms:
+
+🔴 **YouTube**  
+🔵 **LinkedIn**  
+⚫ **Website**  
+🟠 **Newsletter**  
+💙 **PayPal**  
+🔴 **Join**
+
+---
 
 
 
