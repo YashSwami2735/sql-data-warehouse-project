@@ -7,7 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture] (docs/data_architecture.png)
+![Data Architecture](docs/data_architecture.png)
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
@@ -30,6 +30,8 @@ This project involves:
 - ETL Pipeline Developer  
 - Data Modeling  
 - Data Analytics  
+
+---
 
 
 ## 🚀 Project Requirements
@@ -86,24 +88,14 @@ data-warehouse-project/
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
 ```
+---
+
+
 
 ## 🌟 About Me
 
 Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**.  
 I'm passionate IT professional on a mission to share knowledge and make working with data enjoyable and engaging!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/baraa-khatib-salkini)
+[![LinkedIn](https://www.linkedin.com/in/yashswami/)
 
-
----
-
-
-
-
-
-
-
-
-
-
-]
