@@ -97,5 +97,4 @@ data-warehouse-project/
 Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**.  
 I'm passionate IT professional on a mission to share knowledge and make working with data enjoyable and engaging!
 
-[![LinkedIn](https://www.linkedin.com/in/yashswami/)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashswami)
