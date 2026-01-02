@@ -94,7 +94,15 @@ data-warehouse-project/
 
 ## 🌟 About Me
 
-Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**.  
-I'm passionate IT professional on a mission to share knowledge and make working with data enjoyable and engaging!
+Hi there! I'm **Yash Swami**, a Data Analytics and Data Engineering enthusiast.
+I’m an Electrical Engineering graduate passionate about working with data and focused on:
+
+Building practical, real-world data solutions
+
+Designing scalable data pipelines
+
+Transforming raw data into clear, actionable insights
+
+Let’s connect and grow together 🚀
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yashswami)
